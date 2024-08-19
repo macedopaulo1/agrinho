@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #fafafa;
+    color: rgb(0, 71, 163);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: rgb(0, 85, 0);
+}
+
+.Games-imagem{
+    width: 25%;
+}
+
+#Games{
+    background-image: linear-gradient(#fffdfd,#59a2f5);
+    color:rgb(16, 95, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Games-div-conteudo{
+    width: 35%;
+}
+
+
+.Games-titulo{
+    padding: 24px 0;
+}
+
+#Desenvolvedores{
+    padding: 24px 0;
+    background-color: rgb(255, 250, 250);
+
+}
+
+
+.Desenvolvedores-imagem{
+    width: 120px;
+}
+
+.Desenvolvedores-icone{
+    width: 48px;
+    padding: 4px 8px;
+}
+
+.Desenvolvedores-div{
+    text-align: center;
+    padding: 16px 0;
+    color: #257400;
+}
+
+.Desenvolvedores-titulo{
+    text-align: center;
+    padding: 50px 0;
+    color: #257400;
+}
+
+.Desenvolvedores-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+}
+
+.rodape{
+    background-color: rgb(71, 155, 252);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
